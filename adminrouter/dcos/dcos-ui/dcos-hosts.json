@@ -1,0 +1,27 @@
+[
+  {
+    "IP": "10.132.46.84",
+    "hostname": "slave-1",
+    "role": "slave"
+  },
+  {
+    "IP": "10.132.46.85",
+    "hostname": "slave-2",
+    "role": "slave"
+  },
+  {
+    "IP": "10.132.46.81",
+    "hostname": "master-1",
+    "role": "master"
+  },
+  {
+    "IP": "10.132.46.82",
+    "hostname": "master-2",
+    "role": "master"
+  },
+  {
+    "IP": "10.132.46.83",
+    "hostname": "master-3",
+    "role": "master"
+  }
+]
