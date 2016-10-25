@@ -43,3 +43,8 @@ docker build . -t mesos-dns:latest
 docker run --rm mesos-dns:latest cat /etc/mesos-dns/mesos-dns.json > /dcos/mesos-dns/mesos-dns.json
 Modify mesos-dns/mesos-dns.json
 docker run -d --restart=always -v /dcos/mesos-dns/mesos-dns.json:/etc/mesos-dns/mesos-dns.json
+
+## Version
+
+mesos-dns: v0.5.2
+base image: scratch:latest
